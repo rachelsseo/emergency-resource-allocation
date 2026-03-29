@@ -1,0 +1,14 @@
+# Have An Emergency? Don't Worry - A Drone Is On The Way!
+
+## An Exploration Into Emergency Resource Allocation With Artificial Intelligence and Machine Learning
+
+## The Problem
+Urban emergency medical services in metropolitan Sydney face growing difficulty delivering timely and equitable care as incidents become more frequent and complex, traffic congestion intensifies, and weather and environmental disruptions strain already limited resources. Traditional dispatch systems rely on siloed data from ambulances, hospitals, and operators, with limited real-time integration of aerial intelligence, road conditions, and incident severity, resulting in uneven load balancing across facilities and preventable delays in life-saving interventions.
+
+## The Solution
+The Integrated Emergency Response Analytics Dataset (IERAD) enables the development of data-driven, AI-augmented decision-support tools that jointly optimize ambulance routing, drone deployment, and hospital allocation under realistic operational constraints. By fusing multi-source data (i.e. dispatch logs, drone telemetry, traffic and weather conditions, and outcome linked hospital records) IERAD supports predictive models and optimization frameworks that can recommend faster, safer routes, and adapt resource allocation in real time across Sydney's urban and suburban emergency network. It is important to realize that this solution can only be realized when both human and AI are working together to make decisions, per the chart below - AI is not always better at risk management.
+
+## Chart
+
+
+
