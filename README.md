@@ -4,18 +4,13 @@
 
 Urban emergency medical services in metropolitan Sydney face mounting pressure from rising incident volumes, intensifying traffic congestion, and unpredictable environmental conditions that strain traditional dispatch systems. This project leverages the Integrated Emergency Response Analytics Dataset (IERAD) — a synthetic, multi-source dataset spanning 2018 to 2024 — to develop a data-driven, AI-augmented decision-support framework for optimizing emergency resource allocation across Sydney's urban and suburban network. The dataset was restructured into a normalized relational schema of four tables capturing incident characteristics, environmental conditions, resource availability, and dispatch coordination, enabling more rigorous and reproducible analysis. Two predictive models were built: a Gradient Boosting classifier that recommends the optimal dispatch type (Ambulance Only, Drone Only, or Hybrid), and a regression model that estimates response time to support real-time routing decisions. The system is explicitly designed as a human-in-the-loop tool, surfacing model confidence alongside recommendations so that dispatch coordinators retain final decision-making authority. Key limitations include the synthetic nature of the underlying data, potential class imbalance in dispatch outcomes, and the absence of real-time road network routing — all of which are identified as priorities for future development. Situated at the intersection of emergency management, transportation logistics, urban air mobility, and AI decision-support systems, this project demonstrates the feasibility of machine learning as a meaningful complement to human judgment in high-stakes, time-critical public safety operations.
 
-
-<br>
-
-<br>
-
 ---
 
 ### Name - Rachel Seo
 ### NetID - ydp7xv
-### DOI - [https://doi.org/10.1000/182](https://doi.org/10.1000/182)
+### DOI - [https://doi.org/10.1000/182](https://doi.org/10.1000/182) EDIT!!
 ### Press Release
-[**Have An Emergency? Don't Worry - A Drone Is On The Way!**](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/press-release.md)
+[**🚨 Have An Emergency? Help Might Already Be on the Way**](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/press-release.md)
 ### Data - [Link to Data](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/parquet-data)
 ### Pipeline - [Link to Analysis Code](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/scripts/initial_models.py)
 ### License - [MIT](LICENSE.md)
@@ -25,15 +20,12 @@ Urban emergency medical services in metropolitan Sydney face mounting pressure f
 | Name | Rachel Seo |
 | NetID | ydp7xv |
 | DOI | [https://doi.org/10.1000/182](https://doi.org/10.1000/182) |
-| Press Release | [Have An Emergency? Don't Worry - A Drone Is On The Way!](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/press-release.md) |
+| Press Release | [🚨 Have An Emergency? Help Might Already Be on the Way](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/press-release.md) |
 | Data | [Link to Data](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/parquet-data) |
 | Pipeline | [Link to Analysis Code](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/scripts/initial_models.py) |
 | License | [MIT](LICENSE.md) |
 
 ---
-<br>
-
-<br>
 
 ## Problem Definition
 ### General and Specific Problem
@@ -96,7 +88,7 @@ Splitting the flat CSV into four normalized tables was a deliberate design choic
 
 ## Metadata
 ### ER Diagram
-![ER Diagram](image.png)
+![ER Diagram](/images/ERD.png)
 
 ### Data Tables 
 | Table Name | Description | Link |
