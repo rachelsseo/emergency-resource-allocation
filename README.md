@@ -8,22 +8,22 @@ Urban emergency medical services in metropolitan Sydney face mounting pressure f
 
 ### Name - Rachel Seo
 ### NetID - ydp7xv
-### DOI - [https://doi.org/10.1000/182](https://doi.org/10.1000/182) EDIT!!
+### DOI - [https://doi.org/10.5281/zenodo.19356307](https://doi.org/10.5281/zenodo.19356307)
 ### Press Release
 [**🚨 Have An Emergency? Help Might Already Be on the Way**](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/press-release.md)
-### Data - [Link to Data](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/parquet-data)
+### Data - [Link to Data in OneDrive](https://myuva-my.sharepoint.com/:f:/g/personal/ydp7xv_virginia_edu/IgCWyGzL4V5tQqkgTka4so5TAezqX4OrvqBxwWAb1dqnsx4?e=6AMQEc)
 ### Pipeline - [Link to Analysis Code](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/scripts/initial_models.py)
-### License - [MIT](LICENSE.md)
+### License - [MIT](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/LICENSE.md)
 ---
 | Spec | Value |
 |---|---|
 | Name | Rachel Seo |
 | NetID | ydp7xv |
-| DOI | [https://doi.org/10.1000/182](https://doi.org/10.1000/182) |
+| DOI | [https://doi.org/10.5281/zenodo.19356307](https://doi.org/10.5281/zenodo.19356307) |
 | Press Release | [🚨 Have An Emergency? Help Might Already Be on the Way](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/press-release.md) |
 | Data | [Link to Data](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/parquet-data) |
-| Pipeline | [Link to Analysis Code](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/scripts/initial_models.py) |
-| License | [MIT](LICENSE.md) |
+| Pipeline | [Link to Analysis Code](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/scripts/final-solution-pipeline.ipynb)|
+| License | [MIT](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/LICENSE.md) |
 
 ---
 
@@ -39,7 +39,7 @@ After observing the Integrated Emergency Response Dataset (IERAD) (from [Kaggle]
 The motivation for this project comes from wanting to support more efficient data-driven emergency response decision-making. Making emergency decision under time constraints is stressful when it involves many changing factors such as traffic congestion, weather conditions, and the availability of medical resources. As new technologies like medical drones become integrated into emergency systems, determining when to deploy drones, ambulances, or a combination of both becomes increasingly complex.
 
 ### Press Release Headline and Link
-[**Have An Emergency? Don't Worry - A Drone Is On The Way!**](https://github.com/rachelsseo/)
+[**🚨 Have An Emergency? Help Might Already Be on the Way**](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/press-release.md)
 
 ## Domain Exposition
 
@@ -95,7 +95,7 @@ Splitting the flat CSV into four normalized tables was a deliberate design choic
 |---|---|---|
 | `incident` | Core event records including incident type, severity, emergency level, region, injuries, distance, response time, and dispatch outcome label. One row per incident. | [incident.parquet](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/parquet-data/incident.parquet) |
 | `environmental_conditions` | Weather and traffic conditions recorded at the time of each incident, including weather impact severity and air traffic level. | [environmental_conditions.parquet](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/parquet-data/environmental_conditions.parquet) |
-| `resource` | Drone and ambulance availability and performance metrics per incident, including speeds, battery life, payload weight, and fuel level. | [resource.parquet]()https://github.com/rachelsseo/emergency-resource-allocation/blob/main/parquet-data/resource.parquet |
+| `resource` | Drone and ambulance availability and performance metrics per incident, including speeds, battery life, payload weight, and fuel level. | [resource.parquet](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/parquet-data/resource.parquet) |
 | `dispatch` | Dispatch coordination details per incident, including coordinator type (AI or Human), specialist availability, and destination hospital capacity. | [dispatch.parquet](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/parquet-data/dispatch.parquet) |
 
 ### Data Dictionary 
