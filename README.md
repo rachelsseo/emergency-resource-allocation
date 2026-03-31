@@ -12,7 +12,7 @@ Urban emergency medical services in metropolitan Sydney face mounting pressure f
 ### Press Release
 [**🚨 Have An Emergency? Help Might Already Be on the Way**](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/press-release.md)
 ### Data - [Link to Data in OneDrive](https://myuva-my.sharepoint.com/:f:/g/personal/ydp7xv_virginia_edu/IgCWyGzL4V5tQqkgTka4so5TAezqX4OrvqBxwWAb1dqnsx4?e=6AMQEc)
-### Pipeline - [Link to Analysis Code](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/scripts/initial_models.py)
+### Pipeline - [Link to Analysis Code](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/scripts/final-solution-pipeline.ipynb)
 ### License - [MIT](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/LICENSE.md)
 ---
 | Spec | Value |
@@ -21,7 +21,7 @@ Urban emergency medical services in metropolitan Sydney face mounting pressure f
 | NetID | ydp7xv |
 | DOI | [https://doi.org/10.5281/zenodo.19356307](https://doi.org/10.5281/zenodo.19356307) |
 | Press Release | [🚨 Have An Emergency? Help Might Already Be on the Way](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/press-release.md) |
-| Data | [Link to Data](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/parquet-data) |
+| Data | [Link to Data in OneDrive](https://myuva-my.sharepoint.com/:f:/g/personal/ydp7xv_virginia_edu/IgCWyGzL4V5tQqkgTka4so5TAezqX4OrvqBxwWAb1dqnsx4?e=6AMQEc) |
 | Pipeline | [Link to Analysis Code](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/scripts/final-solution-pipeline.ipynb)|
 | License | [MIT](https://github.com/rachelsseo/emergency-resource-allocation/blob/main/LICENSE.md) |
 
